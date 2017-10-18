@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	text-align: center;
+
 }
 body,html{
 	font-size: 18px;
@@ -10,24 +10,18 @@ body,html{
 
 }
 /*header*/
-.navbar{
-	background-color: #4d4d4d!important;
 
-	/*padding-bottom: 40px;*/
-}
-a.col{
-	color: white!important;
-}
+
 a.col:hover{
 	text-decoration: underline;
 	color: blue;
-	background-color: orange;
+	background-color:#f442c2;
 }
-a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
+/*a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	
-	color: red/*!important*/;
-	background-color: green/*!important*/;
-}
+	color: red;
+	background-color: green;
+}*/
 /* jumbtron*/
 .picture{
 	
@@ -49,17 +43,13 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	display: inline-
 	block;
 	margin-top: 100px;
-	/*position: relative;
-	top:30%;
-	left:10%;
-	right:0;
-	bottom: 0;*/
+	
 }
-/*#scroll_1{
+#scroll_1{
 	position: absolute;
-	top:50%;
+	top:35%;
 	left:50%;
-}*/
+}
  .board{
 	position:absolute;
 	top:50%;
@@ -87,7 +77,7 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
 	height: 800px;
 }
 .picFacilities{
-	background:url(../image/image_12.jpeg) center center no-repeat;
+	background:url(../image/image_11.jpeg) center center no-repeat;
 	background-size: cover;
 	position: relative;
 	top:0;
@@ -117,27 +107,29 @@ ul.comfort li{
 	display: inline-block;
 	padding-right: 1%;
 }
- .slider {
-        width: 63%;
-        margin: 100px auto;
-    }
-
-    .slick-slide img {
-      width: 250px;
-      height: 250px;
-    }
-
-/*section 2 who am I*/
-.left_slick p{
-	text-align: left;
-	margin-left: 10%;
+ 
+/* Start of attractions*/
+#attract{
+	background-color: #d9d9d9;
 }
-/*who am I*/
-.btn:hover{
-	text-decoration: underline;
-	color: blue;
-	background-color: orange;
+.image-container{
+	background-color: white;
+  padding:2%;
 }
+
+.image-container img{
+  opacity: 0.7;
+  width: 100%;
+  transition: .5s transform,
+              .5s opacity;
+}
+
+.image-container img:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+/*end of attractions*/
+
 .photo{
 	background: url(../image/) center center no-repeat;
 	background-size: cover;
@@ -161,7 +153,7 @@ ul.comfort li{
 	background-color: #e6e6e6;
 }
 #port{
-	background-color:rgba(74, 79, 89,0.8)  ;
+	background-color:#d6addd;
 }
 .portfolio,.certify,.credit{
 	margin-top:3.5%;
@@ -181,6 +173,7 @@ ul.comfort li{
 	position: relative;
 }
 .section-heading h1{
+	color:#d125ae!important;
 	text-transform: uppercase;
 	margin: 0 0 1% 0;
 }
@@ -207,88 +200,47 @@ ul.text li {
 	font-size: 2.5rem;
 	text-transform: uppercase;
 }
-/* right side image*/
-/*img.car{
-	width:250px;
-	height: 250px;
-}
-*/
+
 .contact{
 background: transparent;
 position:absolute; 
 top: 400px; 
 left: 400px;
 }
-/* certification*/
 
-.cer-content{
-	background-color:rgb(238, 219, 224);
-	padding:2%;
-}
-.cer-content img{
-  opacity: 0.9;
-  width: 100%;
-  height: 400px;
-  transition: .5s transform,
-              .5s opacity;
-}
-
-.cer-content img:hover{
-  opacity: 1;
-  transform: scale(0.99);
-}
 
 /* contact us*/
 
-#success{
-	
-	background: url(../image/) center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	}
-ul {
-	list-style: none;
-}
-i.profile {
-	color: rgba(203, 87, 66,0.9);
-	line-height: 2rem;
-	font-weight: 700;
-}
+
 /*footer */
 #end{
-	background-color: #4d4d4d;
-	height: 300px;
-	margin-top: 0;
+	background-color:#ea62c1;
+	height: 200px;
+	position:relative;
 }
-
 .aboutMe ul{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+	text-align: center;
 }
 .aboutMe ul li{
-  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-  border-radius: 50%;
-  background: white;
-  list-style: none;
-  line-height: 30px;
- margin-top: 150px;
-  width: 30px;
-  height: 30px;
-  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding-right:10px;
+  display: inline-block;
+  
 }
+
 .aboutMe p{
-	margin-top: 1.5%;
+	margin-top: 1%;
 }
 .aboutMe ul li:hover{
 	background: orange;
 }
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
-	color: rgb(244, 66, 66)}
+	color: #333132;}
+#scroll_1 i.fa{
+	margin-top: 100px;
+}
 .container {
   
   background-color: white;
