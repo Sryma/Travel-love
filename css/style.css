@@ -32,7 +32,7 @@ a.col:hover{
 #wraper{
 	position: relative;
 	margin-top: 5%;
-	border:1px solid green;
+	
 	height:600px;
 }
 .element{
@@ -52,7 +52,7 @@ a.col:hover{
 	left:0;
 	right:0;
 	
-	background-color: orange;
+	background-color: rgba(178, 148, 204,0.8);
 	width: 50%;
 	height:200px;
 	padding: 10px;
