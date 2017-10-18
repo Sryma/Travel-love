@@ -10,7 +10,9 @@ body,html{
 
 }
 /*header*/
-
+.navbar{
+	border-bottom: 3px solid rgb(178, 148, 204);
+}
 
 a.col:hover{
 	text-decoration: underline;
