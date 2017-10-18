@@ -14,7 +14,7 @@ body,html{
 
 a.col:hover{
 	text-decoration: underline;
-	color: blue;
+	color: rgb(110, 45, 168);
 	background-color:#f442c2;
 }
 
@@ -212,7 +212,7 @@ left: 400px;
 
 /*footer */
 #end{
-	background-color:#ea62c1;
+	background-color:rgba(178, 148, 204,0.8);
 	
 	position:relative;
 }
@@ -241,8 +241,8 @@ left: 400px;
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
 	/*color: #333132;*/
-	color:red;
-	padding-right: 300px;
+	color:rgb(110, 45, 168);
+	/*padding-right: 300px;*/
 
 }
 /*#scroll_1 i.fa{
