@@ -17,11 +17,7 @@ a.col:hover{
 	color: blue;
 	background-color:#f442c2;
 }
-/*a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
-	
-	color: red;
-	background-color: green;
-}*/
+
 /* jumbtron*/
 .picture{
 	
@@ -35,9 +31,9 @@ a.col:hover{
 
 #wraper{
 	position: relative;
-	margin-top: 3%;
-	/*border:1px solid green;*/
-	height: 500px;
+	margin-top: 5%;
+	border:1px solid green;
+	height:600px;
 }
 .element{
 	display: inline-
@@ -244,7 +240,11 @@ left: 400px;
 }
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
-	color: #333132;}
+	/*color: #333132;*/
+	color:red;
+	padding-right: 300px;
+
+}
 /*#scroll_1 i.fa{
 	margin-top: 100px;
 }*/
