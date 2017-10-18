@@ -289,8 +289,12 @@ ul.aboutMe  li{
 #scroll_1 i.fa,#scroll i.fa{
 	
 	color:rgb(110, 45, 168);
+	
 	}
-
+#scroll i.fa{
+	margin-left: 20rem;
+	
+}
 
 /*media query*/
 @media only screen and (max-width: 480px){
@@ -343,8 +347,7 @@ ul.aboutMe  li{
 	
 
 }
-.element,.pic h5{
-
+.element,.pic h5{sc
 	color: blue;
 	font-size: 2rem;
 	
