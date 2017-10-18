@@ -284,14 +284,10 @@ ul.aboutMe  li{
 }
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
-	/*color: #333132;*/
+	
 	color:rgb(110, 45, 168);
-	/*padding-right: 300px;*/
+	}
 
-}
-/*#scroll_1 i.fa{
-	margin-top: 100px;
-}*/
 
 /*media query*/
 @media only screen and (max-width: 480px){
@@ -300,7 +296,7 @@ ul.aboutMe  li{
 		background-color: rgba(0, 0, 0, 0.9);
 		
 	}
-	.thumbnail.pic,.cer-content{
+	.thumbnail.pic,.board{
 	width: 100%;
 }
 #facilites,.scope{
@@ -327,7 +323,10 @@ ul.aboutMe  li{
 		font-size:18px;
 		background-color: rgb(66, 134, 244);
 	}
-
+.scope{
+	width: 100%;
+	height:100vh;
+}
 .element,.pic h5{
 
 	color: blue;
