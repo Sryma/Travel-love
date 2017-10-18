@@ -186,6 +186,8 @@ ul.text li {
 	margin-top: 2%;
 	color:purple!important;
 	font-size: 1.4rem!important;
+	text-align: center;
+	text-decoration: underline;
 	
 }
 .text i.fa{
@@ -215,7 +217,7 @@ left: 400px;
 /*footer */
 #end{
 	background-color:#ea62c1;
-	height: 200px;
+	
 	position:relative;
 }
 .aboutMe ul{
@@ -235,12 +237,17 @@ left: 400px;
 .aboutMe ul li:hover{
 	background: orange;
 }
+
+.text_1  li{
+	list-style: none;
+	/*margin-top: 3.5%;*/
+}
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
 	color: #333132;}
-#scroll_1 i.fa{
+/*#scroll_1 i.fa{
 	margin-top: 100px;
-}
+}*/
 .container {
   
   background-color: white;
