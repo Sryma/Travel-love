@@ -14,10 +14,10 @@ body,html{
 	border-bottom: 3px solid rgb(178, 148, 204);
 }
 
-a.col:hover{
+a.col:focus, a.col:hover{
 	text-decoration: underline;
-	color: rgb(110, 45, 168);
-	background-color:#f442c2;
+	color: rgb(178, 148, 204)!important;
+	
 }
 
 /* jumbtron*/
