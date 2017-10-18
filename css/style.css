@@ -103,42 +103,48 @@ ul.comfort li{
 	display: inline-block;
 	padding-right: 1%;
 }
- 
-/* Start of attractions*/
-#attract{
-	background-color: #d9d9d9;
-}
-.image-container{
-	background-color: white;
+ .container {
+  
+  background-color: white;
   padding:2%;
 }
 
-.image-container img{
-  opacity: 0.7;
+.ima {
+  display: block;
   width: 100%;
-  transition: .5s transform,
-              .5s opacity;
+  
 }
 
-.image-container img:hover{
-  opacity: 1;
-  transform: scale(1.1);
-}
-/*end of attractions*/
-
-.photo{
-	background: url(../image/) center center no-repeat;
-	background-size: cover;
-	height: 600px;
-
-}
-.photo h1{
-	color: yellow;
+.overlay {
+  background: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
 }
 
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
 
-/*start of portfolio*/
-
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 .folder{
 	/*background-color: #e6e6e6;*/
 	padding:5% 0 5% 0;
@@ -191,13 +197,43 @@ ul.text li {
 }
 
 
-/*end of portfolio*/
-.element{
-
-	color: black;
-	font-size: 2.5rem;
-	text-transform: uppercase;
+/* Start of attractions*/
+#attract{
+	background-color: #d9d9d9;
 }
+.image-container{
+	background-color: white;
+  padding:2%;
+}
+
+.image-container img{
+  opacity: 0.7;
+  width: 100%;
+  transition: .5s transform,
+              .5s opacity;
+}
+
+.image-container img:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+/*end of attractions*/
+
+.photo{
+	background: url(../image/) center center no-repeat;
+	background-size: cover;
+	height: 600px;
+
+}
+.photo h1{
+	color: yellow;
+}
+
+
+/*start of portfolio*/
+
+
+/*end of portfolio*/
 
 .contact{
 background: transparent;
@@ -207,7 +243,7 @@ left: 400px;
 }
 
 
-/* contact us*/
+
 
 
 /*footer */
@@ -216,21 +252,29 @@ left: 400px;
 	
 	position:relative;
 }
-.aboutMe ul{
-	text-align: center;
+ul.aboutMe {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	list-style: none;
+
 }
-.aboutMe ul li{
-  margin-top: 50px;
-  margin-left: 100px;
-  padding-right:10px;
-  display: inline-block;
+ul.aboutMe  li{
+  
+  border-radius: 50%;
+  background-color: white;
+  padding: 1rem;
+  margin-right: 2rem;
+  font-size: 1rem;
   
 }
 
 .aboutMe p{
 	margin-top: 1%;
 }
-.aboutMe ul li:hover{
+.aboutMe li:hover{
 	background: orange;
 }
 
@@ -248,48 +292,7 @@ left: 400px;
 /*#scroll_1 i.fa{
 	margin-top: 100px;
 }*/
-.container {
-  
-  background-color: white;
-  padding:2%;
-}
 
-.ima {
-  display: block;
-  width: 100%;
-  
-}
-
-.overlay {
-  background: rgba(0,0,0,0.5);
-	position: absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-  text-align: center;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-.text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
 /*media query*/
 @media only screen and (max-width: 480px){
 	body,html{
