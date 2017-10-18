@@ -68,7 +68,7 @@ a.col:hover{
 /*start of facilites*/
 #facilites{
 	position: relative;
-	margin-top: 3%;
+	
 	/*border:1px solid green;*/
 	height: 800px;
 }
@@ -86,16 +86,19 @@ a.col:hover{
 	top:30%;
 	left:0;
 	right:0;
-	bottom: 10px;
+	bottom: 0;
 	background-color: rgb(224, 224, 209);
-	width:80%;
-	height: 500px;
-	padding: 15px;
+	width: 60%;
+	height:500px;
+	padding: 10px;
 	margin: 0 auto;
+	text-align: center;
+   
 }
 .sea{
 		margin:0 auto;
 		width:100%;
+		min-height: 400px;
 }
 /*end of facilites*/
 /* start of room*/
@@ -299,9 +302,19 @@ ul.aboutMe  li{
 	.thumbnail.pic,.board{
 	width: 100%;
 }
-#facilites,.scope{
-		display:none;
-	}
+.scope,.picFacilities,.facilites{
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+
+}
+#wraper{
+	margin-top: 10%;
+}
+.scope{
+	top:10%;
+
+}
 .element,.pic h5{
 
 	color: orange;
@@ -323,9 +336,12 @@ ul.aboutMe  li{
 		font-size:18px;
 		background-color: rgb(66, 134, 244);
 	}
-.scope{
+.scope,.picFacilities,.facilites{
 	width: 100%;
-	height:100vh;
+	min-height: 100%;
+	overflow: hidden;
+	
+
 }
 .element,.pic h5{
 
