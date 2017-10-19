@@ -80,18 +80,15 @@ a.col:focus, a.col:hover{
 	position: relative;
 	
 	/*border:1px solid green;*/
-	height: 800px;
+	/*height: 800px;*/
 }
 .picFacilities{
 	background:url(../image/image_11.jpeg) center center no-repeat;
 	background-size: cover;
-	position: relative;
-	top:0;
 	background-attachment: fixed;
-	height: 100%
-
-}
-.scope{
+	/*height: auto;*/
+	}
+/*.scope{
 	position:absolute;
 	top:30%;
 	left:0;
@@ -99,16 +96,22 @@ a.col:focus, a.col:hover{
 	bottom: 0;
 	background-color: rgb(224, 224, 209);
 	width: 60%;
-	height:500px;
+	height:auto;
 	padding: 10px;
 	margin: 0 auto;
 	text-align: center;
    
+}*/
+.scope{
+	color: rgb(178, 148, 204);
+	background-color: rgb(66, 244, 146);
 }
 .sea{
-		margin:0 auto;
+		
 		width:100%;
-		min-height: 400px;
+		padding: 1%;
+		/*height: auto;*/
+		/*z-index: 2;*/
 }
 /*end of facilites*/
 /* start of room*/
