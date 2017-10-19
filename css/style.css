@@ -74,18 +74,7 @@ a.col:focus, a.col:hover{
 	display: inline;
 	margin-bottom: 10px; 
 }
-.try{
 
-	width:150px;
-	height:150px;
-	background-color: yellow;
-	border: 1px solid red;
-	position: absolute;
-	top:40%;
-	left:80%;
-	right:0;
-	bottom:0; 
-}
 /*start of facilites*/
 #facilites{
 	position: relative;
@@ -131,11 +120,14 @@ ul.comfort li{
   
   background-color: white;
   padding:2%;
+  position: relative;
+  width: 50%;
 }
 
 .ima {
   display: block;
   width: 100%;
+  height: auto;
   
 }
 
@@ -154,6 +146,7 @@ ul.comfort li{
 }
 
 .container:hover .overlay {
+  
   bottom: 0;
   height: 100%;
 
@@ -161,20 +154,19 @@ ul.comfort li{
 
 .text {
   white-space: nowrap; 
-  color: white;
-  text-align: center;
-  font-size: 20px;
+  color: rgb(66, 244, 146);
+   font-size: 20px;
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 .folder{
-	/*background-color: #e6e6e6;*/
+	
 	padding:5% 0 5% 0;
-	/*background-color: pink;*/
+	
 }
 
 #slick{
@@ -328,7 +320,7 @@ left: 400px;
 		background-color: rgba(0, 0, 0, 0.9);
 		
 	}
-	.thumbnail.pic,.board,.try{
+	.thumbnail.pic,.board{
 	width: 100%;
 }
 .scope,.picFacilities,.facilites{
@@ -365,7 +357,7 @@ left: 400px;
 		font-size:18px;
 		background-color: rgb(66, 134, 244);
 	}
-.scope,.picFacilities,.facilites,.try{
+.scope,.picFacilities,.facilites{
 	width: 100%;
 	
 	overflow: hidden;
