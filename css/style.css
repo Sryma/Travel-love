@@ -88,30 +88,14 @@ a.col:focus, a.col:hover{
 	background-attachment: fixed;
 	/*height: auto;*/
 	}
-/*.scope{
-	position:absolute;
-	top:30%;
-	left:0;
-	right:0;
-	bottom: 0;
-	background-color: rgb(224, 224, 209);
-	width: 60%;
-	height:auto;
-	padding: 10px;
-	margin: 0 auto;
-	text-align: center;
-   
-}*/
+
 .scope{
 	color: rgb(178, 148, 204);
 	background-color: rgb(66, 244, 146);
 }
 .sea{
-		
-		width:100%;
-		padding: 1%;
-		/*height: auto;*/
-		/*z-index: 2;*/
+	width:100%;
+	padding: 1%;
 }
 /*end of facilites*/
 /* start of room*/
@@ -254,12 +238,6 @@ ul.text li {
 	color: yellow;
 }
 
-
-/*start of portfolio*/
-
-
-/*end of portfolio*/
-
 .contact{
 background: transparent;
 position:absolute; 
@@ -293,10 +271,7 @@ left: 400px;
   width: 30px;
   height: 30px;
   margin-right: 20px;
-  padding-left: 7px;
-  align-items:  center;
- /**/
-}
+ }
 
 .aboutMe p{
 	margin-top: 1%;
