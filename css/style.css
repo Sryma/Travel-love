@@ -57,7 +57,7 @@ a.col:focus, a.col:hover{
 }
  .board{
 	position:absolute;
-	top:50%;
+	top:80%;
 	left:0;
 	right:0;
 	
@@ -198,7 +198,11 @@ ul.comfort li{
 .section-heading h1{
 	color:#d125ae!important;
 	text-transform: uppercase;
-	margin: 0 0 1% 0;
+	padding: 0 0 1% 0;
+}
+.section-heading.project h1{
+	padding-top:5rem;
+
 }
 ul.text li {
 	list-style: none;
