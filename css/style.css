@@ -108,7 +108,7 @@ ul.comfort li{
 }
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
   background-color: white;
 }
 
@@ -147,8 +147,7 @@ ul.comfort li{
 }
  
 .folder{
-	
-	padding:5% 0 5% 0;
+padding:5% 0 5% 0;
 	
 }
 
@@ -170,10 +169,15 @@ ul.comfort li{
 .portfolio h1{
 	padding-top: 200px;
 }
-.thumbnail.pic{
-	width: 300px;
-	height: auto;
+.thumbnail.pic img{
+	width: 100%;
+	height: 400px;
 	position: relative;
+	
+}
+.pic{
+	background-color: white;
+	padding: 2%;
 }
 .section-heading h1{
 	color:#d125ae!important;
@@ -200,6 +204,9 @@ ul.text li {
 .text i.fa{
 	color: white;
 }
+button{
+	border-radius: 5%;}
+
 /* =====================================
 5. start of attractions
 ===================================== */
