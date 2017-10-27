@@ -106,50 +106,46 @@ ul.comfort li{
 	display: inline-block;
 	padding-right: 1%;
 }
- .container {
-  
-  background-color: white;
-  padding:2%;
+.container {
   position: relative;
   width: 50%;
+  background-color: white;
 }
 
 .ima {
   display: block;
   width: 100%;
   height: auto;
-  
 }
 
 .overlay {
-  background: rgba(0,0,0,0.5);
-	position: absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-  text-align: center;
-  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  /*bottom: 10%;*/
+  left: 0;
+  right: 0;
+  height: 80%;
   width: 100%;
-  height:0;
-  transition: .5s ease;
-}
+  opacity: 0;
+  transition: .6s ease-in-out;
+  background-color: rgba(0,0,0,0.6);
+  }
+
 .container:hover .overlay {
-    bottom: 0;
-  height: 100%;
+  opacity: 1;
 }
 
 .text {
-  white-space: nowrap; 
-  color: rgb(66, 244, 146);
-   font-size: 20px;
+  color: white;
+  font-size: 20px;
   position: absolute;
-  overflow: hidden;
   top: 50%;
   left: 45%;
+  text-align: justify;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+ 
 .folder{
 	
 	padding:5% 0 5% 0;
