@@ -207,7 +207,7 @@ ul.text li {
 	background-color: #d9d9d9;
 }
 .image-container{
-	background-color: white;
+background-color:rgb(231, 222, 232);
   padding:2%;
 }
 
@@ -220,7 +220,7 @@ ul.text li {
 
 .image-container img:hover{
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 /*end of attractions*/
 
@@ -243,9 +243,8 @@ left: 400px;
 
 /*footer */
 #end{
-	background-color:rgba(178, 148, 204,0.8);
-	
-	position:relative;
+	background-color:rgb(195, 182, 196)!important;
+	/*position:relative;*/
 }
 .aboutMe ul{
 	list-style: none;
@@ -275,10 +274,14 @@ left: 400px;
 .aboutMe li:hover{
 	background: orange;
 }
-
+#end h3{
+	color:rgb(148, 45, 155);
+}
 .text_1  li{
 	list-style: none;
-	/*margin-top: 3.5%;*/
+}
+.text_1  li i.fa{
+	color:rgb(148, 45, 155);
 }
 /*scroll*/
 #scroll_1 i.fa,#scroll i.fa{
@@ -288,7 +291,6 @@ left: 400px;
 	}
 #scroll i.fa{
 	margin-left: 20rem;
-	
 }
 
 /*media query*/
@@ -299,6 +301,9 @@ left: 400px;
 		}
 	#wraper{
 	margin-top: 10%;
+		}
+		#wraper h1{
+			padding-top: 5%;
 		}
 	.picture{
 		width:100%;
