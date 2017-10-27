@@ -1,17 +1,10 @@
-$(document).ready(function(){
-$('.your-class').slick({
-    
-    // autoplay: true,
-    arrows: false,
-    dots:true,
-    infinite:true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-     variableWidth: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: false,
-    pauseOnFocus: false,
-    draggable: false,
-    
-  });
-});
+ wow = new WOW(
+              {
+              boxClass:     'wow',      // default
+              animateClass: 'animated', // default
+              offset:       0,          // default
+              mobile:       true,       // default
+              live:         true        // default
+            }
+            )
+            wow.init();
