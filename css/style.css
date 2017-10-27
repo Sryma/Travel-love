@@ -134,12 +134,9 @@ ul.comfort li{
   height:0;
   transition: .5s ease;
 }
-
 .container:hover .overlay {
-  
-  bottom: 0;
+    bottom: 0;
   height: 100%;
-
 }
 
 .text {
@@ -292,13 +289,17 @@ background-color:rgb(231, 222, 232);
 		background-color: rgba(0, 0, 0, 0.9);
 		}
 	#wraper
-		{
+	{
 	margin-top: 10%;
+	height:450px;
 		}
-		#wraper h1
-		{
-			padding-top: 5%;
-		}
+	.board {
+		top:65%;
+		width:50%;
+	}
+#scroll_1{
+	left:40%;
+}
 	.picture{
 		width:100%;
 			}
@@ -333,6 +334,15 @@ background-color:rgb(231, 222, 232);
 	body,html{
 		font-size:18px;
 		background-color: rgb(66, 134, 244);
+	}
+	#wraper
+	{
+	margin-top: 5%;
+	height:420px;
+		}
+	.board {
+		/*top:60%;*/
+		width:50%;
 	}
 	.picture
 	{
