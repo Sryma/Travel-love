@@ -9,7 +9,13 @@ body,html{
 	font-family: "helvatica";
 
 }
-/*header*/
+p,.text_1 li i{
+	color:#4c5462;;
+}
+/* =====================================
+1. navbar start
+===================================== */
+
 .navbar{
 	border-bottom: 3px solid rgb(178, 148, 204);
 }
@@ -24,8 +30,10 @@ a.col:focus, a.col:hover{
     background: #428BCA;
     transition: all 0.3s ease 0s;
 }
+/* =====================================
+2. Jumbtron start
+===================================== */
 
-/* jumbtron*/
 .picture{
 	background:url(../image/image_1.jpeg) center center no-repeat;
 	background-size: cover;
@@ -49,14 +57,12 @@ a.col:focus, a.col:hover{
 	position: absolute;
 	top:35%;
 	left:45%;
-
 }
  .board{
 	position:absolute;
 	top:80%;
 	left:0;
 	right:0;
-	
 	background-color: rgba(178, 148, 204,0.8);
 	width: 50%;
 	height:200px;
@@ -70,20 +76,18 @@ a.col:focus, a.col:hover{
 	display: inline;
 	margin-bottom: 10px; 
 }
+/* =====================================
+3. start of facilites
+===================================== */
 
-/*start of facilites*/
 #facilites{
 	position: relative;
-	
-	/*border:1px solid green;*/
-	/*height: 800px;*/
-}
+	}
 .picFacilities{
 	background:url(../image/image_11.jpeg) center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	/*height: auto;*/
-	}
+		}
 
 .scope{
 	color: rgb(178, 148, 204);
@@ -94,7 +98,10 @@ a.col:focus, a.col:hover{
 	padding: 1%;
 }
 /*end of facilites*/
-/* start of room*/
+/* =====================================
+4. start of room
+===================================== */
+
 ul.comfort li{
 	display: inline-block;
 	padding-right: 1%;
@@ -200,9 +207,10 @@ ul.text li {
 .text i.fa{
 	color: white;
 }
+/* =====================================
+5. start of attractions
+===================================== */
 
-
-/* Start of attractions*/
 #attract{
 	background-color: #d9d9d9;
 }
@@ -223,29 +231,13 @@ background-color:rgb(231, 222, 232);
   transform: scale(1.03);
 }
 /*end of attractions*/
+/* =====================================
+6. footer
+===================================== */
 
-.photo{
-	background: url(../image/) center center no-repeat;
-	background-size: cover;
-	height: 600px;
-
-}
-.photo h1{
-	color: yellow;
-}
-
-.contact{
-background: transparent;
-position:absolute; 
-top: 400px; 
-left: 400px;
-}
-
-/*footer */
 #end{
 	background-color:rgb(195, 182, 196)!important;
-	/*position:relative;*/
-}
+	}
 .aboutMe ul{
 	list-style: none;
 	margin: 0;
@@ -290,36 +282,36 @@ left: 400px;
 #scroll i.fa{
 	margin-left: 20rem;
 }
+/* =====================================
+7. Media query
+===================================== */
 
-/*media query*/
 @media only screen and (max-width: 480px){
 	body,html{
 		font-size:16px;
 		background-color: rgba(0, 0, 0, 0.9);
 		}
-	#wraper{
+	#wraper
+		{
 	margin-top: 10%;
 		}
-		#wraper h1{
+		#wraper h1
+		{
 			padding-top: 5%;
 		}
 	.picture{
 		width:100%;
-		/*height: 50vh;*/
-	}
+			}
 	.thumbnail.pic,.board{
 	width: 100%;
-}
+	}
 .scope,.picFacilities,.facilites{
 	width: 100%;
-	
 	overflow: hidden;
-
-}
+	}
 
 .scope{
 	top:10%;
-
 }
 .element,.pic h5{
 
@@ -342,21 +334,19 @@ left: 400px;
 		font-size:18px;
 		background-color: rgb(66, 134, 244);
 	}
-	.picture{
-		width:100%;
-		/*height: 80vh;*/
-	}
+	.picture
+	{
+	width:100%;
+			}
 .scope,.picFacilities,.facilites{
 	width: 100%;
-	
 	overflow: hidden;
-}
+	}
 .element,.pic h5{sc
 	color: blue;
 	font-size: 2rem;
-	
-}
-h1{
+	}
+	h1{
 		font-size:  1.5rem;
 		color: black;
 	}
@@ -365,8 +355,8 @@ h1{
 		color: purple!important;
 	}
 	.thumbnail.pic,.cer-content{
-	width: 100%;
-}
+		width: 100%;
+	}
 }
 
 
