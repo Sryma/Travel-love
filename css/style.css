@@ -279,6 +279,9 @@ background-color:rgb(231, 222, 232);
 #scroll i.fa{
 	margin-left: 20rem;
 }
+.cener{
+	margin: 0 auto;
+}
 /* =====================================
 7. Media query
 ===================================== */
